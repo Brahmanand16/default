@@ -1,7 +1,7 @@
 public class BikeSales {
     
     public static Decimal calculateBMI(Decimal weight, Decimal height) {
-        Decimal result  = weight / (height * height);
+        Decimal result  = weight / (height * weight);
         return result;
     }
 
